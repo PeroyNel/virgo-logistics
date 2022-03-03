@@ -26,8 +26,27 @@ import packages from '../assets/packages.jpg';
 import master from '../assets/master.jpg';
 import transport from '../assets/transport.jpg';
 import land from '../assets/land.jpg';
+import van from '../assets/van.png';
+import plane from '../assets/plane.png';
+import air from '../assets/air.jpg';
+import plane2 from '../assets/plane2.jpg';
+import ship from '../assets/ship.png';
+import aboutusmaster from '../assets/aboutusmaster.jpg';
+import map from '../assets/map.jpg';
+import establish from '../assets/establish.jpg';
+import philosophy from '../assets/philosophy.jpg';
+
 
 export default {
+    philosophy,
+    establish,
+    ship,
+    map,
+    aboutusmaster,
+    air,
+    plane,
+    plane2,
+    van,
     land,
     transport,
     master,

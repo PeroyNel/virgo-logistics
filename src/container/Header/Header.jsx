@@ -8,7 +8,9 @@ const Header = () => (
   <div className="app__header app__wrapper section__padding" id="home">
     <div className="app__wrapper_info">
       <SubHeading title="Anytime, Anywhere, Any Destination" />
-      <h1 className="app__header-h1">Virgo Global Logistics</h1>
+      <h1 className="app__header-h1">Virgo</h1>
+      <h1 className="app__header-h1-1">Global</h1>
+      <h1 className="app__header-h1-2">Logistics</h1>
       <p className="p__opensans" style={{ margin: '2rem 0' }}>We get your cargo delivered on time, anywhere in the world.<br></br> By Land, Air and Sea.</p>
       <button type="button" className="custom__button">Get A Quote</button>
     </div>

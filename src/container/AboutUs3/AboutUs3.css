@@ -28,11 +28,12 @@
 }
 
 .app__aboutus3-content_knife {
-    margin: 2rem 4rem;
+    margin: 12rem 19.5rem;
 }
 
 .app__aboutus3-content_knife img {
-    height: 910px;
+    height: 510px;
+    transform: rotate(90deg);
 }
 
 .app__aboutus3-content_history {

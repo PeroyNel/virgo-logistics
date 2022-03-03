@@ -27,12 +27,14 @@
     text-align: right;
 }
 
-.app__aboutus-content_knife {
-    margin: 2rem 4rem;
+.app__aboutus-content_van {
+    margin: 22rem 23.5rem;
 }
 
-.app__aboutus-content_knife img {
+.app__aboutus-content_van img {
     height: 910px;
+    transform: rotate(90deg);
+    max-height: 180px;
 }
 
 .app__aboutus-content_history {
@@ -51,7 +53,7 @@
 }
 
 @media screen and (min-width: 2000px) {
-    .app__aboutus-content_knife img {
+    .app__aboutus-content_van img {
         height: 1110px;
     }
     .app__aboutus-content_about p,
@@ -64,7 +66,7 @@
     .app__aboutus-content {
         flex-direction: column;
     }
-    .app__aboutus-content_knife {
+    .app__aboutus-content_van {
         margin: 4rem 0;
     }
 }

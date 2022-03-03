@@ -24,6 +24,22 @@
     background-attachment: fixed;
 }
 
+.app__bg2 {
+    background: url('./assets/air.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+.app__bg3 {
+    background-color: var(--color-white);
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
 .app__wrapper {
     display: flex;
     justify-content: space-between;
@@ -64,10 +80,12 @@
 
 .app__wrapper_img1 img {
     width: 80%;
+    border-radius: 60px/15px;
 }
 
 .app__wrapper_img img {
     width: 80%;
+    border-radius: 60px/15px;
 }
 
 .custom__button {
@@ -109,7 +127,7 @@
 
 .headtext__cormorant {
     font-family: var(--font-base);
-    color: var(--color-golden);
+    color: var(--color-white);
     font-size: 64px;
     line-height: 83.2px;
     letter-spacing: 0.04em;

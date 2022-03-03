@@ -4,6 +4,26 @@
 
 .app__header-h1 {
     font-family: var(--font-base);
+    color: var(--color-red);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    line-height: 117px;
+    font-size: 90px;
+}
+
+.app__header-h1-1 {
+    font-family: var(--font-base);
+    color: var(--color-black);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    line-height: 117px;
+    font-size: 90px;
+}
+
+.app__header-h1-2 {
+    font-family: var(--font-base);
     color: var(--color-black);
     font-weight: 700;
     letter-spacing: 0.04em;
@@ -21,10 +41,24 @@
         font-size: 180px;
         line-height: 210px;
     }
+    .app__header-h1-1 {
+        font-size: 180px;
+        line-height: 210px;
+    }
+    .app__header-h1-2 {
+        font-size: 180px;
+        line-height: 210px;
+    }
 }
 
 @media screen and (max-width: 1150px) {
     .app__header-h1 {
+        font-size: 90px;
+    }
+    .app__header-h1-1 {
+        font-size: 90px;
+    }
+    .app__header-h1-2 {
         font-size: 90px;
     }
 }
@@ -34,10 +68,26 @@
         font-size: 70px;
         line-height: 87px;
     }
+    .app__header-h1-1 {
+        font-size: 70px;
+        line-height: 87px;
+    }
+    .app__header-h1-2 {
+        font-size: 70px;
+        line-height: 87px;
+    }
 }
 
 @media screen and (max-width: 450px) {
     .app__header-h1 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+    .app__header-h1-1 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+    .app__header-h1-2 {
         font-size: 50px;
         line-height: 70px;
     }
