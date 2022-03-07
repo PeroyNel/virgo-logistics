@@ -4,7 +4,7 @@ import { SubHeading } from '../../components';
 import { images } from '../../constants';
 
 const FindUs2 = () => (
-  <div className="app__bg4 app__wrapper section__padding" id="contact">
+  <div className="app__bg4 app__wrapper section__padding">
     
     <div className="app__wrapper_img">
       <img src={images.map} alt="finus_img" />

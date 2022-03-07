@@ -21,10 +21,10 @@ const Navbar = () => {
       </ul>
       <div className="app__navbar-phone">
         <MdLocalPhone color="#000" fontSize={27}/>
-        <a href="#phone" className="p__opensans">083 457 3802</a>
+        <a href="#phone" className="p__opensans">+27 21 801 8685</a>
         
         <MdMailOutline color="#000" marginLeft="2px" fontSize={27}/>
-        <a href="/" className="p__opensans">Email</a>
+        <a  href="mailto: francois@virgogloballogistics.com" className="p__opensans">Email</a>
       </div>
       <div className="app__navbar-smallscreen">
         <GiHamburgerMenu color="#000" fontSize={27} onClick={() => setToggleMenu(true)} />
